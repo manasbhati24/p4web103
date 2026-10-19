@@ -4,7 +4,7 @@ Submitted by: **Manas Singh Bhati**
 
 About this web app: **A plae to build you crewmate for the popular video game Among Us. You can pick through different skins and skin packs.**
 
-Time spent: **X** hours
+Time spent: **10** hours
 
 ## Required Features
 
@@ -43,7 +43,7 @@ Here's a walkthrough of implemented required features:
 <img src='https://imgur.com/a/VU8IpwM' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Imgur
+GIF created with Imgur
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -55,7 +55,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Manas Singh Bhati]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
