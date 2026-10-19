@@ -1,68 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-#root {
-    --font-family: Rubik, Verdana, sans-serif;
-    --primary: rgb(115, 2, 12);
-    --primary-hover: black;
-    --color: white;
-    --h1-color: var(--color);
-    --h2-color: var(--color);
-    --h3-color: var(--color);
-    --card-background-color: rgba(0, 0, 0, 0.8);
-    --card-sectionning-background-color: rgba(0, 0, 0, 0.8);
-    --form-element-active-border-color: var(--color);
-    --form-element-placeholder-color: gray;
+@font-face {
+  font-family: 'Impostograph';
+  src: url('./assets/fonts/Impostograph-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-#root h1 {
-    font-size: 3rem;
-    margin-bottom: 0px;
+@font-face {
+  font-family: 'Arimo';
+  src: url('./assets/fonts/Impostograph-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-#root h2 {
-    margin-bottom: 0px;
+*,
+*::before,
+*::after {
+  font-weight: 400 !important;
 }
 
-#root h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0px;
+body,
+button,
+input,
+select,
+textarea,
+p,
+span,
+label,
+small,
+a,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arimo', sans-serif !important;
+  font-weight: 400 !important;
 }
 
-#root p {
-    margin-bottom: 10px;
+header h1,
+.header-left h1 {
+  font-family: 'Impostograph', sans-serif !important;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  margin: 0;
 }
 
-#root [role=button], #root button, #root input[type=submit] {
-    font-family: var(--font-family);
-    font-weight: 500;
-    text-transform: uppercase;
-    border: 2px solid transparent;
-    margin: 10px;
-    width: max-content;
+.items-list-container h2,
+.customizer-container h2,
+.detail-view h2 {
+  font-family: 'Impostograph', sans-serif !important;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
 }
 
-#root [role=button]:hover, #root button:hover, #root input[type=submit]:hover {
-    border: 2px solid var(--color);
+.preview-name,
+.crewmate-card h3 {
+  font-family: 'Impostograph', sans-serif !important;
+  letter-spacing: 1.5px;
+  font-size: 1.4rem;
 }
 
-#root main {
-    display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-#root article {
-    text-align: left;
-    margin-bottom: 5px;
-}
-
-#root article header {
-    border-bottom: 0px;
-    margin-bottom: 10px;
-}
-
-#root article footer {
-    border-top: 0px;
-    margin-top: 0px;
-    display: flex;
+.price-tag,
+.price-tag .bean-price-tag,
+.detail-info p:last-child,
+.detail-info p:last-child .bean-price-tag {
+  font-family: 'Impostograph', sans-serif !important;
+  letter-spacing: 1px;
 }
